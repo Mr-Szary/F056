@@ -1,0 +1,11 @@
+! bg_zjatos.cmnd - Background Z(->bb) + jatos
+Beams:idA = 2212
+Beams:idB = 2212
+Beams:eCM = 13000.
+Main:numberOfEvents = 1000
+
+! Configuracao especifica Z+jatos
+WeakZ0:gmZmode = 2
+WeakSingleBoson:ffbar2gmZ = on
+23:onMode = off
+23:onIfMatch = 5 -5

@@ -1,0 +1,9 @@
+! bg_qcd.cmnd - Background QCD multijato
+Beams:idA = 2212
+Beams:idB = 2212
+Beams:eCM = 13000.
+Main:numberOfEvents = 1000
+
+! Configuracao especifica QCD
+HardQCD:hardbbbar = on
+PhaseSpace:pTHatMin = 20.

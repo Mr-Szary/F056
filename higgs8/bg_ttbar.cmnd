@@ -1,0 +1,11 @@
+! bg_ttbar.cmnd - Background de pares de top
+Beams:idA = 2212
+Beams:idB = 2212
+Beams:eCM = 13000.
+Main:numberOfEvents = 1000
+
+! Configuracao especifica ttbar
+Top:gg2ttbar = on
+Top:qqbar2ttbar = on
+24:onMode = off
+24:onIfAny = 1 2 3 4 11 13 15
